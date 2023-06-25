@@ -1,0 +1,15 @@
+Name: 
+ Project Title: Investment return calculation and rate compare
+ Project Stack: Java
+ GitHub Repo Link: https://github.com/cottoncloud636/Investment-rate.git
+
+ Project Description: 
+ 
+New Programming Concept(s) I'm Planning to Learn: Calculator (not sure this will be too complicated, otherwise I will create a formula.) And also I want to learn BootStrap and API.
+
+Week 1 Features (to show at Review during Week 2): at least get login and register page ready, 
+
+Week 2 Features (to show at the first office hour/lecture of Week 3): be able to show real-time rates through API.
+
+
+Product Backlog (If I have more time after completing my MVP, I'll start to work on...)

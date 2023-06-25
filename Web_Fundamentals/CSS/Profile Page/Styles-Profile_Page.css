@@ -1,0 +1,205 @@
+/* beginning of navgation bar */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav{
+    background-color: #333333;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-links{
+    display: flex; /*tell its children (the 4 links) to flex */
+    list-style: none; /*remove the dots, now there is no style to these lists.*/
+    width: 50%; /*means occupy 50% to the whole nav container */
+    justify-content: space-evenly; /*在没有写width:50% 时 justify-content使用了没有效果，因为nav-links也是一个container他有自己的width，之前没有define width时，其width特别小，所以用了justify-content看不出效果，空间太小，文字都挤在一起*/
+}
+
+.nav a{ /*only the anchor tag inside the nav container will be apply to the following styles, in case there are other anchor tags I don't want to apply these styles if the webpage is really complicated not as simple as the assignment */
+    color: white;
+    text-decoration: none; /*to get rid of underlines */
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: none; /* get rid of the border around the sign out button*/
+    box-shadow: 4px 4px black; /*to give a 3D effect aroudnd the sign out button */
+}
+/* end of navgation bar */
+
+.ancestor{
+    width: 800px;
+    margin: 20px auto;
+}
+
+/*align 4 small containers */
+.parent{
+    display: flex;
+}
+
+.lcol{
+    flex: 2;
+}
+
+.rcol{
+    flex: 1;
+    
+}
+
+/*beginning of user card*/
+.user-card{
+    height: 320px;
+    width: 400px;
+    border: solid;
+    border-color: gainsboro;
+}
+
+.topbar-1{
+    height: 60px;
+    background-color: aqua;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+
+.jane{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.content{
+    padding: 0px 30px;
+    margin: 0px 10px;
+    height: 150px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.map{
+    height: 20px;
+}
+
+.content p, h3{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.content h4{
+    font-size: 14px;
+    margin: 0px;
+}
+
+.icon{
+    height: 20px;
+    padding-right: 10px; /* to make the icon and "edit profile" text has some space in between */
+}
+/* end of user card */
+
+/* beginning of education */
+.education{
+    height: 200px;
+    width: 400px;
+    border: solid;
+    border-color: gainsboro;
+    margin: 20px 20px 0px 0px;
+}
+
+.topbar-2{
+    height: 15px;
+    background-color: black;
+    padding: 20px;
+}
+
+h1{
+    font-size: 15px;
+    color: white;
+    margin: 0px auto;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.experience p{
+color: gray;
+}
+/* end of education */
+
+/* beginning of requests */
+.requests{
+height: 150px;
+border: solid;
+border-color: gainsboro;
+width: 300px;
+}
+
+.topbar-3{
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    height: 30px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center; /* make the word: 2 connections requests aliged to the center of the top black bar*/
+}
+
+.fig-icon{
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.start, .end{
+    display: flex;
+    align-items: center; /* this allows text "Todd E" align with his pic */
+    font-size: 15px; 
+}
+
+.request-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.your-connections{
+    height: 250px;
+    width: 300px;
+    border: solid;
+    border-color: gainsboro;
+    margin: 60px 0px 0px 0px;
+}
+
+.connections{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+    height: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+
+}
+
+.footer{
+    font-size:small;
+    border-top: solid;
+    border-color: gainsboro;
+    padding: 15px;
+}
